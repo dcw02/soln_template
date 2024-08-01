@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
-add_subdirectory(lib/yastdlib)
+add_subdirectory(lib/yastdlib build)
 
 add_executable(soln src/main.cpp)
 target_link_libraries(soln PRIVATE yastdlib)
