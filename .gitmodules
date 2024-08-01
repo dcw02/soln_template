@@ -1,0 +1,3 @@
+[submodule "lib/yastdlib"]
+	path = lib/yastdlib
+	url = git@github.com:dcw02/yastdlib.git
