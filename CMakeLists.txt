@@ -8,5 +8,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 add_subdirectory(lib/yastdlib build)
 
+#add_compile_definitions(LOCAL)
+
 add_executable(soln src/main.cpp)
 target_link_libraries(soln PRIVATE yastdlib)
